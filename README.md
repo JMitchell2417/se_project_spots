@@ -36,4 +36,4 @@ Rather than relying on fixed dimensions, the layout prioritizes flexibility usin
 
 This website is deployed to Github Pages
 
-- Deployment Link:
+- Deployment Link: https://jmitchell2417.github.io/se_project_spots/
