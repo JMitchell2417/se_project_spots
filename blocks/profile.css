@@ -1,0 +1,135 @@
+.profile {
+  display: flex;
+  padding: 34px 0 20px;
+  border-bottom: 1px solid rgba(33, 33, 33, 0.4);
+}
+
+.profile__add-btn {
+  align-self: flex-end;
+  margin-left: auto;
+  border-radius: 8px;
+  border: none;
+  background-color: #212121;
+  text-decoration: none;
+  padding: 18px 32px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  color: #fcf5e5;
+  transition: 200ms;
+}
+
+.profile__add-btn:hover {
+  background-color: rgba(33, 33, 33, 0.8);
+}
+
+.profile__avatar {
+  margin-right: 20px;
+  border-radius: 8px;
+  height: 190px;
+  width: 190px;
+}
+
+.profile__name {
+  margin: 0 0 12px 0;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: medium;
+  line-height: 1;
+  color: #212121;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 420px;
+}
+
+.profile__description {
+  margin: 0;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 1;
+  color: rgba(33, 33, 33, 0.7);
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 420px;
+}
+
+.profile__edit-btn {
+  margin-top: auto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: rgba(33, 33, 33);
+  display: flex;
+  gap: 8px;
+  background: none;
+  border: none;
+  text-decoration: none;
+  transition: 200ms;
+  opacity: 0.4;
+}
+
+.profile__edit-btn:hover {
+  color: #212121;
+  opacity: 1;
+}
+
+.profile__edit-btn_icon {
+  fill: rgba(33, 33, 33, 0.7);
+}
+
+.profile__column {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .profile__avatar {
+    margin: 0 0 12px 0;
+    height: 80px;
+    width: 80px;
+  }
+
+  .profile__column {
+    margin-bottom: 20px;
+  }
+
+  .profile__edit-btn {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile__add-btn {
+    margin: 0;
+    align-self: center;
+  }
+
+  .profile__name {
+    font-size: 20px;
+    margin: 0 0 6px 0;
+    max-width: 288px;
+  }
+
+  .profile__description {
+    margin-bottom: 32px;
+    max-width: 288px;
+  }
+
+  .profile__add-btn {
+    width: 100%;
+  }
+}

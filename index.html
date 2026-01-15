@@ -15,12 +15,94 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <img src="images/Logo.svg" class="header__logo" alt="logo" />
+      </header>
       <main class="content">
-        <section class="profile"></section>
-        <section class="cards"></section>
+        <section class="profile page__section-container">
+          <img
+            src="./images/avatar.jpg"
+            alt="Current User Avatar"
+            class="profile__avatar"
+          />
+          <div class="profile__column">
+            <h1 class="profile__name">Bessie Coleman</h1>
+            <p class="profile__description">Civil Aviator</p>
+            <a type="button" class="profile__edit-btn" href="#">
+              <img
+                class="profile__edit-btn_icon"
+                src="./images/edit_icon.svg"
+                alt="Edit Icon"
+              />Edit Profile
+            </a>
+          </div>
+          <a type="button" class="profile__add-btn" href="#">
+            <img src="./images/plus_icon.svg" alt="Plus Icon" />
+            New Post
+          </a>
+        </section>
+        <section class="cards page__section-container">
+          <ul class="cards__list">
+            <li class="card">
+              <img class="card__image" src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="Val Thorens"></img>
+              <div class="card__content">
+                <h3 class="card__title">Val Thorens</h3>
+                <a class="card__like-btn" href="#">
+            <img src="./images/heart_icon.svg" alt="Like Icon" />
+          </a>
+              </div>
+            </li>
+             <li class="card">
+              <img class="card__image" src="./images/2-photo-by-ceiline-from-pexels.jpg" alt="Val Thorens"></img>
+              <div class="card__content">
+                <h3 class="card__title">Restaurant Terrace</h3>
+                <a class="card__like-btn" href="#">
+            <img src="./images/heart_icon.svg" alt="Like Icon" />
+          </a>
+              </div>
+            </li>
+             <li class="card">
+              <img class="card__image" src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg" alt="Val Thorens"></img>
+              <div class="card__content">
+                <h3 class="card__title">An Outdoor Cafe</h3>
+                <a class="card__like-btn" href="#">
+            <img src="./images/heart_icon.svg" alt="Like Icon" />
+          </a>
+              </div>
+            </li>
+             <li class="card">
+              <img class="card__image" src="./images/4-photo-by-maurice-laschet-from-pexels.jpg" alt="Val Thorens"></img>
+              <div class="card__content">
+                <h3 class="card__title">A very long bridge, over the forest</h3>
+                <a class="card__like-btn" href="#">
+            <img src="./images/heart_icon.svg" alt="Like Icon" />
+          </a>
+              </div>
+            </li>
+             <li class="card">
+              <img class="card__image" src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg" alt="Val Thorens"></img>
+              <div class="card__content">
+                <h3 class="card__title">Tunnel with morning light</h3>
+                <a class="card__like-btn" href="#">
+            <img src="./images/heart_icon.svg" alt="Like Icon" />
+          </a>
+              </div>
+            </li>
+             <li class="card">
+              <img class="card__image" src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg" alt="Val Thorens"></img>
+              <div class="card__content">
+                <h3 class="card__title">Mountain house</h3>
+                <a class="card__like-btn" href="#">
+            <img src="./images/heart_icon.svg" alt="Like Icon" />
+          </a>
+              </div>
+            </li>
+          </ul>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer page__section-container">
+        <p class="footer__description">2023 © Spots</p>
+      </footer>
     </div>
   </body>
 </html>
