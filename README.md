@@ -32,4 +32,8 @@ Rather than relying on fixed dimensions, the layout prioritizes flexibility usin
 
 - Reflects real-world networking tasks commonly performed in help desk and NOC environments.
 
-Live Site:
+**Deployment**
+
+This website is deployed to Github Pages
+
+- Deployment Link:
