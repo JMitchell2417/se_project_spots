@@ -14,13 +14,13 @@ Rather than relying on fixed dimensions, the layout prioritizes flexibility usin
 
 **Tools & Technologies**
 
-HTML5 – semantic, accessible markup
+- HTML5: semantic, accessible markup
 
-CSS3 – Flexbox, Grid, media queries
+- CSS3: Flexbox, Grid, media queries
 
-Figma – design reference and layout planning
+- Figma: design reference and layout planning
 
-Responsive Design – desktop-first with progressive adaptation
+- Responsive Design: desktop-first with progressive adaptation
 
 **Business Value**
 
