@@ -4,10 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 46px;
 }
 
 .header__logo {
   width: 94px;
-  height: 64px;
+  height: 26px;
 }
